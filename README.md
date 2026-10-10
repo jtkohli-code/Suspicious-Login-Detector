@@ -29,17 +29,29 @@ Nano for creating and editing project files.
 ### Steps
 Figure 1: Kali Linux Project Directory Setup
 
+<img width="277" height="57" alt="image" src="https://github.com/user-attachments/assets/325d8343-4586-44a5-b3a3-4ef95c959257" />
+
+<img width="881" height="260" alt="image" src="https://github.com/user-attachments/assets/b6fb6dbb-934f-4076-b9c5-c4dd80017707" />
+
 Create a project directory named login-project in Kali Linux to organize the authentication log, Bash script, and generated security report.
 
 Figure 2: Authentication Log Creation
+
+<img width="942" height="772" alt="image" src="https://github.com/user-attachments/assets/301eb4e0-d12e-439a-b18a-70c82654844f" />
 
 Create a simulated auth.log file containing successful and failed SSH login attempts. The sample records provide test data for analyzing authentication activity without accessing real system security logs.
 
 Figure 3: Bash Login Detector Script Creation
 
+<img width="326" height="55" alt="image" src="https://github.com/user-attachments/assets/340d6a49-ca82-4b5d-a975-24783b37ff80" />
+
+<img width="532" height="285" alt="image" src="https://github.com/user-attachments/assets/9d4b80ba-3481-4d36-97db-4be3fb9cb66c" />
+
 Create login_detector.sh using the Nano text editor. The script checks whether the log file exists, counts successful and failed login attempts, extracts IP addresses associated with failed logins, and identifies addresses that meet the suspicious activity threshold.
 
 Figure 4: Script Permissions and Execution
+<img width="591" height="332" alt="image" src="https://github.com/user-attachments/assets/cfd743ca-3431-4e06-aa95-24acb1ba4880" />
+
 
 Add execute permissions to the Bash script and run it in the Kali Linux terminal. Verify that the script processes the sample authentication records and displays the results without errors.
 
